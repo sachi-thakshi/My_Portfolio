@@ -129,7 +129,7 @@ const About = () => {
               </Link>
 
               <a
-                href="https://example.com/Sachini-Resume.pdf"
+                href="https://docs.google.com/document/d/1XF9DF9pwMP2zsZxHSKi4dBQFWEobBJ6toyGRAUdHMQ8/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
