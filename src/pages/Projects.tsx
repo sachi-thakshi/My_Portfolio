@@ -162,7 +162,7 @@ const projects: Project[] = [
     techStack: ['Python', 'Pandas', 'Data Analysis', 'Matplotlib', 'Jupyter']
   },
   { 
-    id: 3, 
+    id: 14, 
     title: 'JourneyMate', 
     category: 'App', 
     image: JourneyMateImg, 
@@ -200,13 +200,15 @@ const Portfolio = () => {
         </motion.div>
 
         {/* Filter Buttons */}
-        <div className="flex justify-center space-x-2 md:space-x-6 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 md:gap-6 mb-12 px-4">
           {['All', 'Web', 'App', 'Desktop', 'Data'].map(tab => (
-            <button 
+            <button
               key={tab}
               onClick={() => setActiveTab(tab as any)}
-              className={`px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest transition-all ${
-                activeTab === tab ? 'bg-[#0086c9] text-white shadow-lg shadow-blue-500/30' : 'bg-white/5 text-gray-400 hover:bg-white/10'
+              className={`px-4 sm:px-6 py-2 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-widest transition-all ${
+                activeTab === tab
+                  ? 'bg-[#0086c9] text-white shadow-lg shadow-blue-500/30'
+                  : 'bg-white/5 text-gray-400 hover:bg-white/10'
               }`}
             >
               {tab}
