@@ -16,6 +16,7 @@ import PawPalImg from '../assets/projects/pawpal.png'
 import MoonPagesImg from '../assets/projects/moon-pages.png'
 import VHNImg from '../assets/projects/vhn-data-analyst.png'
 import JourneyMateImg from '../assets/projects/journeymate.png'
+import AGMSImg from '../assets/projects/agms.png'
 
 interface Project {
   id: number;
@@ -169,6 +170,15 @@ const projects: Project[] = [
     description: 'A cross-platform mobile travel planning application built with React Native and Expo. It utilizes Firebase for real-time data management and user authentication to streamline trip organization.',
     github: ['https://github.com/sachi-thakshi/JourneyMate.git'],
       techStack: ['React Native', 'Expo', 'Firebase', 'Mobile Dev']
+  },
+  { 
+    id: 15, 
+    title: 'AGMS', 
+    category: 'Desktop', 
+    image: AGMSImg, 
+    description: 'A cloud-native microservices architecture built with Spring Boot and Spring Cloud that integrates a real-time IoT telemetry bridge with automated decision-making to optimize greenhouse environments.',
+    github: ['https://github.com/sachi-thakshi/Automated-Greenhouse-Management-System-AGMS.git'],
+      techStack: ['Java', 'Spring Boot', 'Spring Cloud', 'Netflix Eureka', 'JWT', 'MySQL', 'Lombok', 'Microservices', 'IoT', 'MongoDB']
   }
 ]
 
